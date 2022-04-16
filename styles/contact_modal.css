@@ -84,3 +84,9 @@
 .contact_modal_close:hover {
   transform: rotate(90deg);
 }
+
+@media screen and (max-width: 760px) {
+  .contact_modal {
+    font-size: 12px;
+  }
+}
