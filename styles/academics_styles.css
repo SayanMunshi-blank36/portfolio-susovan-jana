@@ -1,0 +1,58 @@
+.academics {
+  margin: 8rem 0;
+}
+
+.academics_head {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #fca475;
+  margin-bottom: 3rem;
+}
+
+.academics_head::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 18rem;
+  height: 0.06rem;
+  background-color: #5a5a5c;
+  top: -2rem;
+  margin-left: 17rem;
+}
+
+.academics_body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  margin: 0 4rem;
+}
+
+.eachAcademics {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* font-size: 1.2rem; */
+}
+
+.aca_logo {
+  width: 10rem;
+  margin-bottom: 2rem;
+}
+
+.aca_span_1 {
+  color: #fca475;
+  font-weight: 200;
+  /* font-size: 1.5rem; */
+}
+
+.eachAcademics p {
+  margin: 0.3rem;
+}
+
+@media screen and (max-width: 350px) {
+  .academics_head::after {
+    display: none;
+  }
+}
